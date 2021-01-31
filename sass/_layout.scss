@@ -1,0 +1,23 @@
+.container {
+  max-width: 160rem;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 75em) {
+    padding: 0 6rem;
+  } //1200px
+}
+
+.header {
+  max-width: 100%;
+
+  background-color: lightblue;
+
+  // @media only screen and (max-width: 102.5rem) {
+  //   height: 47vh;
+  // }
+}
+
+.scale {
+  width: 100%;
+  height: auto;
+}
